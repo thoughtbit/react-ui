@@ -1,0 +1,54 @@
+{
+  "name": "element-react",
+  "version": "0.1.0",
+  "description": "A React-based UI components for the web",
+  "private": false,
+  "scripts": {
+    "start": "PORT=12306 bee server",
+    "build": "rm -rf dist && bee build",
+    "lint": "",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtbit/react-ui.git"
+  },
+  "keywords": [
+    "UI",
+    "React"
+  ],
+  "author": "moocss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thoughtbit/react-ui/issues"
+  },
+  "homepage": "https://github.com/thoughtbit/react-ui#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-jest": "^18.0.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-react": "^6.16.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-plugin-react-require": "^3.0.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "enzyme": "^2.5.1",
+    "jest-cli": "^18.0.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-test-renderer": "^15.4.2",
+    "styled-jsx": "^0.5.4",
+    "mockjs": "^1.0.1-beta3",
+    "bees-cli": "0.5.9"
+  }
+}
